@@ -1,3 +1,29 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(201, 201, 201);
+}
+
+#menu-icon {
+  font-size: 30px;
+}
+
+#top-header {
+  height: 10vh;
+}
+
+.program-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.speaker-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.speaker-info {
+  font-size: 10px;
+}
+
+.speaker-name {
+    font-size: 17px;
 }
