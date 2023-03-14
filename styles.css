@@ -1,5 +1,16 @@
 body {
-  background-color: rgb(201, 201, 201);
+  width: 100%;
+}
+
+#top-header {
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+.top-bg {
+  background-image: url("images/white-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #menu-icon {
@@ -10,9 +21,70 @@ body {
   height: 10vh;
 }
 
+.hero {
+  color: rgb(255, 64, 0);
+}
+
+.hero-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.message-p {
+  background-color: rgb(194, 194, 194, 0.4);
+  font-weight: 600;
+}
+
+.message-time {
+  font-weight: 700;
+  font-size: 30;
+}
+
+.section-title-white {
+  color: white;
+}
+
+.section-title-black {
+  color: black;
+}
+
+.title-line {
+  border: 1px solid rgb(255, 64, 0);
+  width: 40px;
+}
+
+.main-program {
+  background-image: url("images/program-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .program-card {
   display: flex;
   flex-direction: row;
+  background-color: rgb(90, 90, 90, 0.7);
+}
+
+.program-title {
+  color: rgb(255, 64, 0);
+  font-weight: 500;
+  font-size: 20px;
+}
+.join-btn {
+  background-color: rgb(255, 64, 0);
+  color: #fff;
+  text-decoration: none;
+}
+
+.image-holder {
+  background-image: url("images/necklace.png");
+  background-size: 30%;
+  background-position: 0px 10px;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-left: 15px;
+
 }
 
 .speaker-card {
@@ -21,9 +93,34 @@ body {
 }
 
 .speaker-info {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .speaker-name {
     font-size: 17px;
+}
+
+.speaker-about {
+  color: rgb(255, 64, 0);
+}
+
+.line-breaker {
+  margin: 3px;
+  width: 30px;
+  border: 1px solid gray;
+}
+
+.more-btn {
+  border: 1px solid gray;
+  margin: 15px;
+  color: gray;
+}
+
+.more-btn > p {
+  margin-bottom: 10px;
+}
+
+.more-btn > p > i {
+  color: rgb(255, 64, 0);
+  padding-left: 4px;
 }
