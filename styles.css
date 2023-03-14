@@ -171,3 +171,7 @@ body {
 .partner3 {
   color: rgba(255, 64, 0, 0.573);
 }
+
+.footer-section {
+  display: flex;
+}
