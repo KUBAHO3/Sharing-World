@@ -10,7 +10,8 @@ body {
 } */
 
 #top-header {
-  background-color:rgba(255, 255, 255, 0.9);
+  background-color: rgba(227, 224, 224, 0.9);
+  height: 10vh;
 }
 
 .top-bg {
@@ -22,10 +23,6 @@ body {
 
 #menu-icon {
   font-size: 30px;
-}
-
-#top-header {
-  height: 10vh;
 }
 
 .hero {
@@ -44,7 +41,7 @@ body {
 
 .message-time {
   font-weight: 700;
-  font-size: 30;
+  font-size: 30px;
 }
 
 .section-title-white {
@@ -95,11 +92,10 @@ body {
 .image-holder {
   background-image: url("images/necklace.png");
   background-size: 30%;
-  background-position: 0px 10px;
+  background-position: 0 10px;
   background-repeat: no-repeat;
   padding-top: 20px;
   padding-left: 15px;
-
 }
 
 .speaker-card {
@@ -112,7 +108,7 @@ body {
 }
 
 .speaker-name {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .speaker-about {
@@ -174,7 +170,7 @@ body {
 
 .partner-grp {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 .partner1,
@@ -201,7 +197,6 @@ body {
 
 .mobile-nav {
   position: fixed;
-
   top: 0;
   width: 100%;
   height: 100vh;
