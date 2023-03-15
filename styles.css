@@ -10,7 +10,8 @@ body {
 } */
 .sub-nav,
 .desktop-nav,
-.program-link {
+.program-link,
+.closing-text {
   display: none;
 }
 
@@ -311,6 +312,13 @@ body {
     text-decoration: underline;
   }
 
+  .footer-text {
+    padding-top: 30px;
+  }
+
+  .closing-text {
+    display: block;
+  }
   /* .speaker-card {
     width: 50%;
   } */
