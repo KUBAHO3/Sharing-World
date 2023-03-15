@@ -259,7 +259,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-
   .sub-nav {
     display: flex;
   }
@@ -267,7 +266,7 @@ body {
   .sub-nav-list {
     display: flex;
     flex-direction: row;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .sub-nav-item {
@@ -277,7 +276,7 @@ body {
   }
 
   .sub-nav-item:hover {
-    color: aquamarine;;
+    color: aquamarine;
     list-style: none;
     margin-left: 20px;
     cursor: pointer;
