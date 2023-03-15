@@ -22,40 +22,40 @@ RemoveMenu(closeNav, nav, 'nav-toggle');
 
 const speakers = [
   {
-    name: 'Will Smith',
+    name: 'Chadwick B.',
     about: 'Hollywood actor of Enterpreneaurial legal Studies at Havard Law School',
     quote: 'Benkler studies commons-based peer production, and published his serminal book The Wealth in 2006.',
     image: 'images/speaker1.jpg',
   },
   {
-    name: 'Will Smith',
+    name: 'Michael BJ.',
     about: 'Hollywood actor of Enterpreneaurial legal Studies at Havard Law School',
     quote: 'Benkler studies commons-based peer production, and published his serminal book The Wealth in 2006.',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker2.jpg',
   },
   {
-    name: 'Will Smith',
+    name: 'Lupita N.',
     about: 'Hollywood actor of Enterpreneaurial legal Studies at Havard Law School',
     quote: 'Benkler studies commons-based peer production, and published his serminal book The Wealth in 2006.',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker3.jpg',
   },
   {
-    name: 'Will Smith',
+    name: 'Letitia W.',
     about: 'Hollywood actor of Enterpreneaurial legal Studies at Havard Law School',
     quote: 'Benkler studies commons-based peer production, and published his serminal book The Wealth in 2006.',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker4.jpg',
   },
   {
-    name: 'Will Smith',
+    name: 'Martin F.',
     about: 'Hollywood actor of Enterpreneaurial legal Studies at Havard Law School',
     quote: 'Benkler studies commons-based peer production, and published his serminal book The Wealth in 2006.',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker5.jpg',
   },
   {
-    name: 'Will Smith',
+    name: 'Winstone D.',
     about: 'Hollywood actor of Enterpreneaurial legal Studies at Havard Law School',
     quote: 'Benkler studies commons-based peer production, and published his serminal book The Wealth in 2006.',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker6.jpg',
   },
 ];
 // console.log(speakers)
@@ -64,7 +64,7 @@ document.querySelector('.speaker-holder').innerHTML = speakers.map((speak) => `
 <div class="image-holder">
     <img src=${speak.image} width="120" height="90%" alt="speaker 1">
 </div>
-<div class="speaker-info pl-4">
+<div class="speaker-info pl-4 pt-4">
     <h4 class="speaker-name">${speak.name}</h4>
     <i class="speaker-about">${speak.about}</i>
     <hr class="line-breaker">
@@ -76,27 +76,27 @@ const programs = [
   {
     title: 'Director',
     message: 'Listen to the speakers from various countries about the messeges of sharing and opening.',
-    icon: 'images/conference.png',
+    icon: 'images/program_icon_01.png',
   },
   {
-    title: 'Director',
-    message: 'Listen to the speakers from various countries about the messeges of sharing and opening.',
-    icon: 'images/conference.png',
+    title: 'Exhibition',
+    message: 'Listen to the speakers from various countries about the messeges of sharing.',
+    icon: 'images/program_icon_02.png',
   },
   {
-    title: 'Director',
+    title: 'Forum',
     message: 'Listen to the speakers from various countries about the messeges of sharing and opening.',
-    icon: 'images/conference.png',
+    icon: 'images/program_icon_03.png',
   },
   {
-    title: 'Director',
-    message: 'Listen to the speakers from various countries about the messeges of sharing and opening.',
-    icon: 'images/conference.png',
+    title: 'Workshop',
+    message: 'Listen to the speakers from various countries about the messeges of sharing.',
+    icon: 'images/program_icon_04.png',
   },
   {
-    title: 'Director',
+    title: 'CC Ignite',
     message: 'Listen to the speakers from various countries about the messeges of sharing and opening.',
-    icon: 'images/conference.png',
+    icon: 'images/program_icon_05.png',
   },
 
 ];
