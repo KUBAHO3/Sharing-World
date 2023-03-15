@@ -157,6 +157,14 @@ body {
   height: 30vh;
 }
 
+.summit-two {
+  background-image: url("images/bp-s-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
 .partners {
   background-image: url("images/speaker-bg.jpg");
   background-position: center;
@@ -166,7 +174,7 @@ body {
 
 .partner-grp {
   display: flex;
-  
+  justify-content: space-around
 }
 
 .partner1,
