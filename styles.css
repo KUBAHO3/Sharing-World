@@ -123,6 +123,11 @@ body {
   flex-direction: row;
 }
 
+.program-card:hover {
+  border: 4px solid aquamarine;
+  cursor: pointer;
+}
+
 .speaker-info {
   font-size: 12px;
 }
