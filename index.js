@@ -60,7 +60,7 @@ const speakers = [
 ];
 // console.log(speakers)
 document.querySelector('.speaker-holder').innerHTML = speakers.map((speak) => `
-<div class="container speaker-card mt-4">
+<div class="col-12 col-md-6 speaker-card mt-4">
 <div class="image-holder">
     <img src=${speak.image} width="120" height="90%" alt="speaker 1">
 </div>
