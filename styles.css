@@ -11,7 +11,8 @@ body {
 .sub-nav,
 .desktop-nav,
 .program-link,
-.closing-text {
+.closing-text,
+.more-message {
   display: none;
 }
 
@@ -258,7 +259,8 @@ body {
 
   #menu-icon,
   .join-btn,
-  .more-btn {
+  .more-btn,
+  .about-greetings {
     display: none;
   }
 
@@ -316,10 +318,12 @@ body {
     padding-top: 30px;
   }
 
-  .closing-text {
+  .closing-text,
+  .more-message {
     display: block;
   }
-  /* .speaker-card {
-    width: 50%;
-  } */
+
+  .message-p {
+    margin-left: 20%;
+  }
 }
