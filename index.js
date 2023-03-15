@@ -5,6 +5,7 @@ function ReadElement(selector) {
 const menu = ReadElement('#menu-icon');
 const nav = ReadElement('.mobile-nav');
 const closeNav = ReadElement('.close-button');
+const choose = ReadElement('.menu-list-mobile');
 
 function AddMenu(selected, modalPart, opener) {
   return selected.addEventListener('click', () => {
@@ -19,6 +20,7 @@ function RemoveMenu(selected, modalPart, remover) {
 
 AddMenu(menu, nav, 'nav-toggle');
 RemoveMenu(closeNav, nav, 'nav-toggle');
+RemoveMenu(choose, nav, 'nav-toggle');
 
 const speakers = [
   {
