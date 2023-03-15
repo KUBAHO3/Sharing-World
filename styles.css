@@ -149,7 +149,8 @@ body {
 
 .summit-sub {
   background-color: rgba(255, 64, 0, 0.573);
-  height: 30vh;
+  height: 40vh;
+  padding-top: 20%;
 }
 
 .summit-one {
@@ -157,7 +158,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh;
+  height: 40vh;
 }
 
 .summit-two {
@@ -165,7 +166,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh;
+  height: 40vh;
 }
 
 .partners {
@@ -323,11 +324,20 @@ body {
     display: block;
   }
 
-  .message-p {
+  .about-message-p {
     margin-left: 20%;
   }
 
   .bp-logo-main {
     width: 60%;
+  }
+
+  .past-summit {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .summit-card {
+    width: 47%;
   }
 }
