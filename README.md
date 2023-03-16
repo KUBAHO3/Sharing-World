@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <img src="images/icon_head.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Sharing World</b></h3>
@@ -125,7 +125,7 @@ This project is the Microverse first module capstone which will contain an invit
 
 ## 🦻 WalkThrough Video <a name="#walkthrough-demo"></a>
 
-- [WalkThrough Video Link](https://www.loom.com/share/1f95cd1e242946fe80a7c0cb469aeb48)
+- [WalkThrough Video Link](https://www.loom.com/share/e2a8dcaa2fdb4036a593e403c51c6680)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,7 +220,9 @@ If you like this project please follow me on github & twitter and also connect o
 <!-- ACKNOWLEDGEMENTS -->
 
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
-I would like to thank Microverse for this exercise.
+- I would like to thank Microverse for this exercise. <br>
+-  All credits goes to [Cindy Shin in Behance.](https://www.behance.net/adagio07) for the inspiration of this project!
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FAQ (optional) -->
 
