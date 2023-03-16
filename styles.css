@@ -1,11 +1,9 @@
-@font-face {
-  font-family: myFirstFont;
-  src: url('https://fonts.cdnfonts.com/css/cocogoose');
-}
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
 
 * {
-  font-family: myFirstFont;
+  font-family: 'COCOGOOSE', sans-serif;
 }
+
 body {
   width: 100%;
 }
@@ -376,5 +374,4 @@ body {
   .summit-card {
     width: 47%;
   }
-  
 }
