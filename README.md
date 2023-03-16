@@ -220,7 +220,9 @@ If you like this project please follow me on github & twitter and also connect o
 <!-- ACKNOWLEDGEMENTS -->
 
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
-I would like to thank Microverse for this exercise.
+- I would like to thank Microverse for this exercise. <br>
+-  All credits goes to [Cindy Shin in Behance.](https://www.behance.net/adagio07) for the inspiration of this project!
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FAQ (optional) -->
 
