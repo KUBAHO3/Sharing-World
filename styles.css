@@ -263,6 +263,13 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+  #sponsor,
+  #news {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .sub-nav {
     display: flex;
@@ -290,7 +297,8 @@ body {
   #menu-icon,
   .join-btn,
   .more-btn,
-  .about-greetings {
+  .about-greetings,
+  .partners-about {
     display: none;
   }
 
@@ -373,5 +381,15 @@ body {
 
   .summit-card {
     width: 47%;
+  }
+
+  .partners-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    background-color: rgb(45, 44, 44);
+    color: #fff;
   }
 }
